@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>MOON RISE</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body style="background-color:black;">
+
+    <center><img src="assets/img/moonrise.gif" alt="MOON RISE"></center>
+
+        <audio loop autoplay id="audio" src="assets/mus/moonlight2.mp3"></audio>
+    <center>
+        <img id="img" src="assets/img/moon.jpg" alt="MOON RISE">
+    </center>
+        <script>
+        document.getElementById("img").addEventListener("click", function () {
+            document.getElementById("audio").play();
+        });
+         </script>
+
+    <center><p style="color: white; font-family:'Script MT';">Click the image!</p></center>
+
+</body>
+</html >
